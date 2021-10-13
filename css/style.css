@@ -1,0 +1,17 @@
+/* regole di debug per colonne */
+[class*="col-"] {
+    background-color: orange;
+    height: 150px;
+    border: solid 1px black;
+}
+
+/* header */
+header {
+    /* debug */
+    height: 100px;
+    background-color: black;
+}
+
+/* contenuto pagina */
+
+/* jumbotron */
