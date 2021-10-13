@@ -1,13 +1,20 @@
 /* regole di debug per colonne */
-[class*="col-"] {
+/* [class*="col-"] {
     background-color: orange;
     height: 150px;
     border: solid 1px black;
-}
+} */
 
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
+
+/* colori personalizzati buttons */
+.btn_orange {
+    background-color: #cd3d0f;
+    color: white;
+}
+
 /* header */
 header {
     font-family: Helvetica, sans-serif;
@@ -35,3 +42,19 @@ header {
     margin-left: 25px;
 }
 /* contenuto pagina */
+
+/* jumbotron */
+#jumbotron .banner_ {
+    background-image: url(../img/games/jumbo-bg.png);
+    background-position: center;
+    height: 675px;
+}
+
+#jumbotron .banner_ .container {
+    height: 100%;
+}
+
+#jumbotron .thumb_ img {
+    margin: 15px 0;
+    border-radius: 20px;
+}
