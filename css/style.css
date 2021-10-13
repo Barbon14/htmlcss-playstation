@@ -5,11 +5,33 @@
     border: solid 1px black;
 }
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
 /* header */
 header {
+    font-family: Helvetica, sans-serif;
     /* debug */
     height: 100px;
     background-color: black;
 }
 
+#sony_logo {
+    height: 15px;
+    margin: 10px;
+}
+
+#main_nav {
+    font-family: Helvetica, sans-serif;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+    font-weight: 500;
+}
+
+#search_icon {
+    height: 25px;
+    margin-left: 25px;
+}
 /* contenuto pagina */
