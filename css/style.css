@@ -86,7 +86,13 @@ header {
     background-color: #bebcbb;
 }
 
+/* sezione sconti ps store  */
+#discounts img {
+    margin: 15px 0;
+}
+
 /* sezione ps now */
 #ps_now {
     background-color: #161c3b;
 }
+
