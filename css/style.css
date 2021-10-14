@@ -104,3 +104,25 @@ header {
 #social img {
     margin: 15px 0;
 }
+
+/* footer */
+footer {
+    background-color: #00439c;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+#ps_logo_foot {
+    height: 80px;
+}
+
+#globe {
+    max-height: 20px;
+}
+
+#sony_int_ent {
+    max-height: 50px;
+}
