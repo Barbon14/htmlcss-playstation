@@ -1,11 +1,4 @@
-/* regole di debug per colonne */
-/* [class*="col-"] {
-    background-color: orange;
-    height: 150px;
-    border: solid 1px black;
-} */
-
-body {
+* {
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -33,6 +26,12 @@ header {
     font-family: Helvetica, sans-serif;
 }
 
+.nav-link::after {
+    content: url(../img/nav/chevron-down-solid.svg);
+    width: 10px;
+    display: inline-block;
+}
+
 .navbar-light .navbar-nav .nav-link {
     color: black;
     font-weight: 500;
@@ -42,7 +41,11 @@ header {
     height: 25px;
     margin-left: 25px;
 }
+
 /* contenuto pagina */
+main {
+    margin-top: 111px;
+}
 
 /* jumbotron */
 #jumbotron .banner_ {
