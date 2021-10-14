@@ -55,3 +55,14 @@ header {
     margin: 15px 0;
     border-radius: 20px;
 }
+
+/* sezione titolo in evidenza */
+#hot_title .banner_ {
+    background-image: url(../img/games/it-takes-two-hero-banner-desktop.jpg);
+    background-position: center;
+    height: 956px;
+}
+
+#hot_title .banner_ .container {
+    height: 100%;
+}
