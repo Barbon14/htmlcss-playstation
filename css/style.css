@@ -17,9 +17,6 @@ body {
 
 /* header */
 header {
-    font-family: Helvetica, sans-serif;
-    /* debug */
-    height: 100px;
     background-color: black;
 }
 
