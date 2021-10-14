@@ -66,3 +66,13 @@ header {
 #hot_title .banner_ .container {
     height: 100%;
 }
+
+/* sezione nuove uscite */
+#new_titles {
+    background-color: #1f1f1f;
+}
+
+#new_titles img {
+    margin: 15px 0;
+    border-radius: 20px;
+}
