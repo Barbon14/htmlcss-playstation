@@ -14,6 +14,10 @@ p {
     font-size: 1.05rem;
 }
 
+.max_md {
+    max-width: 540px;
+} 
+
 /* colori personalizzati buttons */
 .btn_orange {
     background-color: #cd3d0f;
@@ -114,13 +118,7 @@ main {
 }
 
 /* sezione social */
-#social .container {
-    max-width: 540px;
-}
 
-#social img {
-    margin: 15px 0;
-}
 
 /* footer */
 footer {

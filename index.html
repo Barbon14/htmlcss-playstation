@@ -147,7 +147,7 @@
         <!-- sezione ps5 -->
         <section id="ps5" class="py-5">
 
-            <div class="text-center">
+            <div class="text-center max_md">
                 <h6 class="text-primary m-0">
                     PLAY HAS NO LIMIT
                 </h6>
@@ -340,7 +340,7 @@
         <section id="ps4" class="py-5">
             
             <!-- titolo sezione  -->
-            <div class="text-center">
+            <div class="text-center max_md">
                 <h2>
                     Esplora PlayStation<sup>&reg;</sup> 4
                 </h2>
@@ -455,52 +455,64 @@
             </div>
         </section>
 
-        <!-- sezione ps now -->
+        <!-- sezione ps now, simile a sezione ps plus-->
         <section id="ps_now">
             <div class="container">
                 <div class="row">
-                    <div class="col-12 col-md-6 text-white">
-                        <img class="img-fluid" src="img/logos/ps-now-logo-two-column.png" alt="">
-                        <p>
+
+                <!-- collonna con descrizione e button link -->
+                <div class="col-12 col-md-6 text-white py-5 py-md-2 d-flex flex-column justify-content-center">
+                    <div class="row">
+                        <div class="col-7">
+                            <img class="img-fluid" src="img/logos/ps-plus-logo.png" alt="">
+                        </div>
+                    </div>
+                    <p class="my-4">
                             Ottieni l'accesso immediato a una vastissima raccolta di oltre 800 giochi PS4, PS3 e PS2 su
                             PS4 o Pc Windows, con nuovi titoli aggiunti ogni mese.
-                        </p>
+                    </p>
+                    <span>
                         <button type="button" class="btn btn-light rounded-pill">
                             Esplora PlayStation Now
                         </button>
-                    </div>
-                    <div class="col-md-6 d-none d-md-block">
-                        <img class="img-fluid" src="img/ps_store/ps-now-april-featured-image-block.png" alt="">
-                    </div>
+                    </span>
+                </div>
+
+                <!-- colonna con img che scompare quando vw < md -->
+                <div class="col-md-6 d-none d-md-block">
+                    <img class="img-fluid" src="img/ps_store/ps-now-april-featured-image-block.png" alt="">
                 </div>
             </div>
         </section>
 
         <!-- sezione social -->
-        <section id="social">
-            <div class="container">
+        <section id="social" class="py-5">
+
+            <!-- titolo sezione -->
+            <div class="text-center">
+                <h2>
+                    Seguici sui social Media
+                </h2>
+            </div>
+
+            <div class="container max_md">
                 <div class="row">
-                    <div class="col-12 text-center">
-                        <h2>
-                            Seguici sui social Media
-                        </h2>
-                    </div>
-                    <div class="col-6 col-sm 3">
+                    <div class="col-6 col-sm-3 my-5">
                         <a href="">
                             <img class="img-fluid" src="img/social/twitter.jpg" alt="">
                         </a>
                     </div>
-                    <div class="col-6 col-sm 3">
+                    <div class="col-6 col-sm-3 my-5">
                         <a href="">
                             <img class="img-fluid" src="img/social/facebook.jpg" alt="">
                         </a>
                     </div>
-                    <div class="col-6 col-sm 3">
+                    <div class="col-6 col-sm-3 my-5">
                         <a href="">
                             <img class="img-fluid" src="img/social/instagram.jpg" alt="">
                         </a>
                     </div>
-                    <div class="col-6 col-sm 3">
+                    <div class="col-6 col-sm-3 my-5">
                         <a href="">
                             <img class="img-fluid" src="img/social/youtube.png" alt="">
                         </a>
