@@ -1,10 +1,7 @@
+/* impostazionni generali */
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
-
-/* h1, h2, h3, h4, h5, h6 {
-    font-weight: bold;
-} */
 
 h2 {
     font-size: 2.5rem;
@@ -34,16 +31,27 @@ header {
 }
 
 #sony_logo {
-    height: 15px;
-    margin: 10px;
+    max-height: 15px;
 }
 
-#main_nav {
+nav {
     font-family: Helvetica, sans-serif;
+}
+
+
+.navbar-light .navbar-nav .nav-link:focus, 
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #0070d1;
 }
 
 .nav-link::after {
     content: url(../img/nav/chevron-down-solid.svg);
+    width: 10px;
+    display: inline-block;
+}
+
+.nav-link::after:hover {
+    content: url(../img/nav/chevron-down-solid-hover.svg);
     width: 10px;
     display: inline-block;
 }
@@ -54,13 +62,12 @@ header {
 }
 
 #search_icon {
-    height: 25px;
-    margin-left: 25px;
+    max-height: 25px;
 }
 
 /* contenuto pagina */
 main {
-    margin-top: 111px;
+    margin-top: 107px;
 }
 
 /* jumbotron */

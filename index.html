@@ -18,21 +18,19 @@
 
         <!-- logo sony -->
         <div class="d-flex justify-content-end">
-            <img id="sony_logo" class="" src="img/logos/sony_logo.svg" alt="logo sony">
+            <img id="sony_logo" class="m-2" src="img/logos/sony_logo.svg" alt="logo sony">
         </div>
 
         <!-- menù di navigazione principale -->
-        <nav id="main_nav" class="navbar navbar-expand-lg navbar-light bg-white">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href="index.html">
                     <img src="img/logos/play_logo.svg" alt="">
                 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
-                    aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse">
+                <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
                             <a class="nav-link" aria-current="page" href="#">
@@ -66,7 +64,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="collapse navbar-collapse justify-content-end">
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
                             <a class="nav-link" href="">
@@ -80,7 +78,7 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="">
-                                <img id="search_icon" src="img/nav/lens.svg" alt="cerca">
+                                <img id="search_icon" class="ms-3" src="img/nav/lens.svg" alt="cerca">
                             </a>
                         </li>
                     </ul>
@@ -520,136 +518,140 @@
                 </div>
             </div>
         </section>
+    </main>
 
-        <!-- footer -->
-        <footer class="text-white py-5">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 col-lg-6 d-flex flex-column">
-
-                        <!-- logo ps -->
-                        <a class="my-4" href="">
-                            <img id="ps_logo_foot" src="img/footer/ps-footer.svg" alt="">
-                        </a>
-
-                        <!-- selezione lingua -->
-                        <a class="my-2" href="">
-                            <img class="me-2" id="globe" src="img/footer/language-globe.svg" alt="">
-                            Country / Region: Italy
-                        </a>
-                    </div>
-
-                    <div class="col-12 col-lg-6">
-
-                        <!-- link utili -->
-                        <div class="row px-4 py-5">
-                            <div class="col-12 col-md">
-                                <ul class="list-unstyled">
-                                    <li>
-                                        <a href="">
-                                            Link footer n
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="">
-                                            Link footer n
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="">
-                                            Link footer n
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="">
-                                            Link footer n
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="">
-                                            Link footer n
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="col-12 col-md">
-                                <ul class="list-unstyled">
-                                    <li>
-                                        <a href="">
-                                            Link footer n
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="">
-                                            Link footer n
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="">
-                                            Link footer n
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="">
-                                            Link footer n
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="">
-                                            Link footer n
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="">
-                                            Link footer n
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="">
-                                            Link footer n
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="col-12 col-md">
-                                <ul class="list-unstyled">
-                                    <li>
-                                        <a href="">
-                                            Link footer n
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="">
-                                            Link footer n
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="">
-                                            Link footer n
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
+    <!-- footer -->
+    <footer class="text-white py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-6 d-flex flex-column">
+    
+                    <!-- logo ps -->
+                    <a class="my-4" href="">
+                        <img id="ps_logo_foot" src="img/footer/ps-footer.svg" alt="">
+                    </a>
+    
+                    <!-- selezione lingua -->
+                    <a class="my-2" href="">
+                        <img class="me-2" id="globe" src="img/footer/language-globe.svg" alt="">
+                        Country / Region: Italy
+                    </a>
+                </div>
+    
+                <div class="col-12 col-lg-6">
+    
+                    <!-- link utili -->
+                    <div class="row px-4 py-5">
+                        <div class="col-12 col-md">
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="">
+                                        Link footer n
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        Link footer n
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        Link footer n
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        Link footer n
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        Link footer n
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-md">
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="">
+                                        Link footer n
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        Link footer n
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        Link footer n
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        Link footer n
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        Link footer n
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        Link footer n
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        Link footer n
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-md">
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="">
+                                        Link footer n
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        Link footer n
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        Link footer n
+                                    </a>
+                                </li>
+                            </ul>
                         </div>
                     </div>
-
-                    <div class="col-12 col-lg-6">
-
-                        <!-- logo sony interactive entertainment -->
-                        <img class="my-2" id="sony_int_ent" src="img/logos/sie-logo.svg" alt="">
-
-                        <!-- dicitura copyright -->
-                        <p>
-                            Website ©2021 Sony Interactive Entertainment Europe Limited. Tutti i contenuti, nomi dei giochi, nomi commerciali e/o di abbigliamento, marchi registrati, grafica e immagini associati sono marchi registrati e/o materiale protetto da copyright dei rispettivi proprietari. Tutti i diritti riservati. 
-                            <a class="text-decoration-underline" href="">
-                                Maggiori info
-                            </a>
-                        </p>
-                    </div>
+                </div>
+    
+                <div class="col-12 col-lg-6">
+    
+                    <!-- logo sony interactive entertainment -->
+                    <img class="my-2" id="sony_int_ent" src="img/logos/sie-logo.svg" alt="">
+    
+                    <!-- dicitura copyright -->
+                    <p>
+                        Website ©2021 Sony Interactive Entertainment Europe Limited. Tutti i contenuti, nomi dei giochi,
+                        nomi commerciali e/o di abbigliamento, marchi registrati, grafica e immagini associati sono marchi
+                        registrati e/o materiale protetto da copyright dei rispettivi proprietari. Tutti i diritti
+                        riservati.
+                        <a class="text-decoration-underline" href="">
+                            Maggiori info
+                        </a>
+                    </p>
                 </div>
             </div>
-        </footer>
-    </main>
-</body>
+        </div>
+    </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
 </html>
