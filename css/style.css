@@ -130,8 +130,12 @@ footer a {
     color: white;
 }
 
+footer li {
+    margin: 10px 0;
+}
+
 #ps_logo_foot {
-    height: 80px;
+    height: 70px;
 }
 
 #globe {
